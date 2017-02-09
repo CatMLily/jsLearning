@@ -61,5 +61,5 @@ function concatTwo(arr1, arr2) {
 function insert(arr, item, index) {
   var newArr = arr.slice(0);
   newArr.splice(index,0,item);
-  console.log(newArr);
+  return newArr;
 }
