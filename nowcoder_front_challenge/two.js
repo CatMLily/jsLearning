@@ -34,7 +34,7 @@ function getUrlParam(sUrl, sKey) {
     return result[sKey] || '';
   }
 }
-console.log(getUrlParam('http://www.nowcoder.com?key=1&key=2&key=3&test=4#hehe', 'test'));
+console.log(getUrlParam('http://www.nowcoder.com?key=1&key=2&key=3&test=4&key=1#hehe', 'test'));
 
 // 方法2 使用exec()方法
 // 正则里的exec()方法是为指定的一段字符串执行搜索匹配操作，返回值是一个数组或者null，所以也可以尝试用它来试验一下这个题
